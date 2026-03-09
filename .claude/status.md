@@ -9,7 +9,7 @@ security: done
 ux_ui: done
 repo_cleanup: done
 readme: done
-last_session: "2026-03-09"
+last_session: "2026-03-10"
 has_blockers: false
 ---
 
@@ -32,9 +32,11 @@ Agent: Claude Code
 - None
 
 ## Backlog
-- [P3] docker-compose.yml with memory limit (--memory=128m) and restart policy
+(none)
 
 ## Done
+- [x] Add docker-compose.yml with 64m memory limit and restart policy — 2026-03-10 — commit b05468f
+- [x] Add docker-compose.yml to .dockerignore — 2026-03-10 — commit b05468f
 - [x] .dockerignore hardened — 2026-03-09
 - [x] .gitignore hardened — 2026-03-09
 - [x] README.md added — 2026-03-09
