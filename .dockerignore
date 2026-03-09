@@ -5,6 +5,7 @@
 README.md
 LICENSE
 *.md
+docker-compose.yml
 .env
 .env.*
 node_modules

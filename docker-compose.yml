@@ -1,0 +1,9 @@
+services:
+  node-http-server:
+    build: .
+    image: node-http-server
+    container_name: node-http-server
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    mem_limit: 64m
